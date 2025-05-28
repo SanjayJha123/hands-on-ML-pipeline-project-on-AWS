@@ -1,0 +1,2 @@
+#Convert it to CSV and upload it to your S3 bucket#
+aws s3 cp churn_data.csv s3://ml-project-churn-data/input/
